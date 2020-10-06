@@ -1,7 +1,6 @@
 package hello.springcore;
 
 import hello.springcore.discount.DiscountPolicy;
-import hello.springcore.discount.FixDiscountPolicy;
 import hello.springcore.discount.RateDiscountPolicy;
 import hello.springcore.member.MemberRepository;
 import hello.springcore.member.MemberService;
