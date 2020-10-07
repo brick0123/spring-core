@@ -1,0 +1,65 @@
+[33mcommit 84a3d3ee0b8153d0bfa0897b60272bdde946eb9b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Wed Oct 7 12:37:03 2020 +0900
+
+    test1모듈 삭제
+
+[33mcommit 859f5794d4b1d35d415b3b1154a1358893b6dae4[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Tue Oct 6 22:31:39 2020 +0900
+
+    모듈 삭제
+
+[33mcommit 9a4d3bbede15868481d9bfc585d7800b9137def4[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Tue Oct 6 22:30:15 2020 +0900
+
+    스프링 빈 조회-상속 관계 테스트
+
+[33mcommit f5f8503a8327e8e6b92c3a27348a212e98ad8031[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Tue Oct 6 22:00:26 2020 +0900
+
+    중복된 빈 출력하기 테스트
+
+[33mcommit 9faaaaf7f939d8a9b980143ad67d2d8723ff6993[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Tue Oct 6 15:48:01 2020 +0900
+
+    스프링 빈 조회-모든빈, 기본
+
+[33mcommit 16c32a036f9e01422e2e8d64cbcfcc430f2343d7[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Mon Oct 5 10:25:15 2020 +0900
+
+    스프링으로 변환
+
+[33mcommit 2acbaf7709d47b057608f906db4c5f217f4fe2c0[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Mon Oct 5 08:45:56 2020 +0900
+
+    AppConfig 리팩토링
+
+[33mcommit b5b06bf2df64cc4c5bfa417a50965d2fcddad49c[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Sun Oct 4 17:32:29 2020 +0900
+
+    관심사의 분리
+
+[33mcommit d0f2c0d97a94cf096dcaa61d88fdc6892561b7f9[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Sun Oct 4 13:23:30 2020 +0900
+
+    새로운 할인 정책 적용
+
+[33mcommit 448fc00bb8a4cf9954647c89c9e356407c02cddb[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Sat Oct 3 23:38:48 2020 +0900
+
+    주문과 할인 도메인 실행과 테스트 작성
+
+[33mcommit 10b3634e615a3f688fb795ee53c219c1a19bce95[m
+Author: 한진호 <tlfanfvk@naver.com>
+Date:   Wed Sep 30 18:46:36 2020 +0900
+
+    Initial commit
