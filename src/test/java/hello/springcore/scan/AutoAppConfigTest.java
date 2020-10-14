@@ -1,8 +1,7 @@
-package hello.springcore.sca;
+package hello.springcore.scan;
 
 import hello.springcore.AutoAppConfig;
 import hello.springcore.member.MemberService;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

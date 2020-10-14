@@ -1,5 +1,8 @@
 package hello.springcore;
 
+import hello.springcore.member.MemberRepository;
+import hello.springcore.member.MemoryMemberRepository;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
@@ -11,4 +14,9 @@ import org.springframework.context.annotation.FilterType;
 // Configuration이 붙은 클래스는 제외하고 컴포넌트 스캔 AppConfig 때문에
 @Configuration
 public class AutoAppConfig {
+
+    @Bean(name = "memoryMemberRepository")
+    MemberRepository memberRepository() {
+        return new MemoryMemberRepository();
+    }
 }
