@@ -1,5 +1,6 @@
 package hello.springcore.order;
 
+import hello.springcore.annotation.MainDiscountPolicy;
 import hello.springcore.discount.DiscountPolicy;
 import hello.springcore.discount.FixDiscountPolicy;
 import hello.springcore.discount.RateDiscountPolicy;
@@ -22,7 +23,7 @@ public class OrderServiceImpl implements OrderService {
     private final DiscountPolicy discountPolicy;
 
 //    @Autowired // 생략
-    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+    public OrderServiceImpl(MemberRepository memberRepository,@MainDiscountPolicy DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
     }
